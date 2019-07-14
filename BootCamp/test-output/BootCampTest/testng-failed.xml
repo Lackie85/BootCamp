@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BootCampTest]">
+  <test thread-count="5" name="testTwo(failed)">
+    <parameter name="fNameFemale" value="Ianina"/>
+    <parameter name="lNameFemale" value="Kostogorova"/>
+    <parameter name="pNumberMale" value="4133788266"/>
+    <parameter name="cNumber" value="1111222233334444"/>
+    <parameter name="fNameChild" value="Aaron"/>
+    <parameter name="flyFrom" value="NewYork"/>
+    <parameter name="lNameChild" value="Kostogorov"/>
+    <parameter name="url" value="https://www.expedia.com/"/>
+    <parameter name="flyTo" value="Bishkek"/>
+    <parameter name="fNameMale" value="Ilia"/>
+    <parameter name="lNameMale" value="Kostogorov"/>
+    <parameter name="chName" value="ILIA KOSTOGOROV"/>
+    <classes>
+      <class name="ilia.BootCamp.Test.Expedia_BookingTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ilia.BootCamp.Test.Expedia_BookingTest -->
+    </classes>
+  </test> <!-- testTwo(failed) -->
+</suite> <!-- Failed suite [BootCampTest] -->

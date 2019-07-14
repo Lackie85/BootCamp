@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BootCampTest">
+<test name="testOne">
+<parameter name="url" value="https://www.homedepot.com/"></parameter>
+<parameter name="email" value="princya10@mail.ru"></parameter>
+<parameter name="pass" value="123456Pass[]"></parameter>
+<parameter name="zip" value="01001"></parameter>
+<parameter name="phone" value="4133788266"></parameter>
+
+<classes>
+<class name="ilia.BootCamp.Test.Registration_Form_Test"></class>
+
+</classes>
+</test>
+</suite>

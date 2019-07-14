@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>BootCamp</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Driver/chromedriver.exe</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/chromedriver_win32/chromedriver.exe</locationURI>
+		</link>
+		<link>
+			<name>Driver/geckodriver.exe</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Programs/geckodriver-v0.24.0-win64/geckodriver.exe</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

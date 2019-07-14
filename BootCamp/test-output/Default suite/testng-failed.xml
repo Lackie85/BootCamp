@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="zip" value="param-val-not-found"/>
+  <parameter name="pass" value="param-val-not-found"/>
+  <parameter name="phone" value="param-val-not-found"/>
+  <parameter name="url" value="param-val-not-found"/>
+  <parameter name="email" value="param-val-not-found"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="ilia.BootCamp.Test.Registration_Form_Test">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="test" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ilia.BootCamp.Test.Registration_Form_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

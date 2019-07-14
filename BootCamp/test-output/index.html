@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BootCampTest">
+              <span class="suite-name border-failed">BootCampTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BootCampTest">
+                    <span>F:\Java Testing\EclipseWorkspace\BootCamp\Expedia_config.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BootCampTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BootCampTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BootCampTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BootCampTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BootCampTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BootCampTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BootCampTest" class="hide-methods failed suite-BootCampTest"> (hide)</a> <!-- hide-methods failed suite-BootCampTest -->
+                      <a href="#" panel-name="suite-BootCampTest" class="show-methods failed suite-BootCampTest"> (show)</a> <!-- show-methods failed suite-BootCampTest -->
+                    </span>
+                    <div class="method-list-content failed suite-BootCampTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BootCampTest" title="ilia.BootCamp.Test.Expedia_BookingTest" hash-for-method="test(https://www.expedia.com/, NewYork, Bishkek, Ilia, Kostogorov, 4133788266, Ianina, Kostogorova, Aaron...)">test(https://www.expedia.com/, NewYork, Bishkek, Ilia, Kostogorov, 4133788266, Ianina, Kostogorova, Aaron...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BootCampTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BootCampTest" class="panel BootCampTest">
+          <div class="suite-BootCampTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ilia.BootCamp.Test.Expedia_BookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(https://www.expedia.com/, NewYork, Bishkek, Ilia, Kostogorov, 4133788266, Ianina, Kostogorova, Aaron...)">
+                  </a> <!-- test(https://www.expedia.com/, NewYork, Bishkek, Ilia, Kostogorov, 4133788266, Ianina, Kostogorova, Aaron...) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(https://www.expedia.com/, NewYork, Bishkek, Ilia, Kostogorov, 4133788266, Ianina, Kostogorova, Aaron, Kostogorov, ILIA KOSTOGOROV, 1111222233334444)</span>
+                  <div class="stack-trace">java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+	at java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+	at java.io.File.getCanonicalPath(Unknown Source)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1064)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1028)
+	at ilia.BootCamp.Test.Expedia_BookingTest.Screenshots(Expedia_BookingTest.java:163)
+	at ilia.BootCamp.Test.Expedia_BookingTest.test(Expedia_BookingTest.java:88)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BootCampTest-class-failed -->
+        </div> <!-- panel BootCampTest -->
+        <div panel-name="test-xml-BootCampTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">F:\Java Testing\EclipseWorkspace\BootCamp\Expedia_config.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;BootCampTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;testTwo&quot;&gt;
+    &lt;parameter name=&quot;fNameFemale&quot; value=&quot;Ianina&quot;/&gt;
+    &lt;parameter name=&quot;lNameFemale&quot; value=&quot;Kostogorova&quot;/&gt;
+    &lt;parameter name=&quot;pNumberMale&quot; value=&quot;4133788266&quot;/&gt;
+    &lt;parameter name=&quot;cNumber&quot; value=&quot;1111222233334444&quot;/&gt;
+    &lt;parameter name=&quot;fNameChild&quot; value=&quot;Aaron&quot;/&gt;
+    &lt;parameter name=&quot;flyFrom&quot; value=&quot;NewYork&quot;/&gt;
+    &lt;parameter name=&quot;lNameChild&quot; value=&quot;Kostogorov&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.expedia.com/&quot;/&gt;
+    &lt;parameter name=&quot;flyTo&quot; value=&quot;Bishkek&quot;/&gt;
+    &lt;parameter name=&quot;fNameMale&quot; value=&quot;Ilia&quot;/&gt;
+    &lt;parameter name=&quot;lNameMale&quot; value=&quot;Kostogorov&quot;/&gt;
+    &lt;parameter name=&quot;chName&quot; value=&quot;ILIA KOSTOGOROV&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ilia.BootCamp.Test.Expedia_BookingTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testTwo --&gt;
+&lt;/suite&gt; &lt;!-- BootCampTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BootCampTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BootCampTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testTwo (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BootCampTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BootCampTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BootCampTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BootCampTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BootCampTest');
+function tableData_BootCampTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'ilia.BootCamp.Test.Expedia_BookingTest')
+data.setCell(0, 3, 14005);
+window.suiteTableData['BootCampTest']= { tableData: data, tableDiv: 'times-div-BootCampTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
+              <div id="times-div-BootCampTest">
+              </div> <!-- times-div-BootCampTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BootCampTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BootCampTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BootCampTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BootCampTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ilia.BootCamp.Test.Expedia_BookingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(https://www.expedia.com/, NewYork, Bishkek, Ilia, Kostogorov, 4133788266, Ianina, Kostogorova, Aaron...)</span>
+                <span class="method-start">3541 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">17549 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

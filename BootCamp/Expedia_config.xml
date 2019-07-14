@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BootCampTest">
+<test name="testTwo">
+
+<parameter name="url" value="https://www.expedia.com/"></parameter>
+<parameter name="flyFrom" value="NewYork"></parameter>
+<parameter name="flyTo" value="Bishkek"></parameter>
+<parameter name="fNameMale" value="Ilia"></parameter>
+<parameter name="lNameMale" value="Kostogorov"></parameter>
+<parameter name="pNumberMale" value="4133788266"></parameter>
+<parameter name="fNameFemale" value="Ianina"></parameter>
+<parameter name="lNameFemale" value="Kostogorova"></parameter>
+<parameter name="fNameChild" value="Aaron"></parameter>
+<parameter name="lNameChild" value="Kostogorov"></parameter>
+<parameter name="chName" value="ILIA KOSTOGOROV"></parameter>
+<parameter name="cNumber" value="1111222233334444"></parameter>
+
+<classes>
+<class name="ilia.BootCamp.Test.Expedia_BookingTest"></class>
+
+</classes>
+</test>
+</suite>

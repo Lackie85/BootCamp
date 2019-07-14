@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Work Starts in Mozilla Firefox]]>
+    </line>
+  </reporter-output>
+  <suite name="BootCampTest" duration-ms="25124" started-at="2019-07-14T01:37:03Z" finished-at="2019-07-14T01:37:28Z">
+    <groups>
+    </groups>
+    <test name="testTwo" duration-ms="25124" started-at="2019-07-14T01:37:03Z" finished-at="2019-07-14T01:37:28Z">
+      <class name="ilia.BootCamp.Test.Expedia_BookingTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:ilia.BootCamp.Test.Expedia_BookingTest@2b98378d]" name="beforeClass" is-config="true" duration-ms="16" started-at="2019-07-14T01:37:03Z" finished-at="2019-07-14T01:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ilia.BootCamp.Test.Expedia_BookingTest@2b98378d]" name="beforeMethod" is-config="true" duration-ms="3516" started-at="2019-07-14T01:37:03Z" finished-at="2019-07-14T01:37:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Work Starts in Mozilla Firefox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ilia.BootCamp.Test.Expedia_BookingTest@2b98378d]" name="test" duration-ms="14005" started-at="2019-07-14T01:37:06Z" finished-at="2019-07-14T01:37:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.expedia.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NewYork]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bishkek]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ilia]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Kostogorov]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[4133788266]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Ianina]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Kostogorova]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Aaron]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Kostogorov]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ILIA KOSTOGOROV]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1111222233334444]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[The filename, directory name, or volume label syntax is incorrect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+at java.io.WinNTFileSystem.canonicalize0(Native Method)
+at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+at java.io.File.getCanonicalPath(Unknown Source)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1064)
+at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1028)
+at ilia.BootCamp.Test.Expedia_BookingTest.Screenshots(Expedia_BookingTest.java:163)
+at ilia.BootCamp.Test.Expedia_BookingTest.test(Expedia_BookingTest.java:88)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:ilia.BootCamp.Test.Expedia_BookingTest@2b98378d]" name="afterMethod" is-config="true" duration-ms="7570" started-at="2019-07-14T01:37:20Z" finished-at="2019-07-14T01:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- ilia.BootCamp.Test.Expedia_BookingTest -->
+    </test> <!-- testTwo -->
+  </suite> <!-- BootCampTest -->
+</testng-results>
